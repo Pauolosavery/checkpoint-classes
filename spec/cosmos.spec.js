@@ -1,6 +1,6 @@
-const RocketEngine = require('../rocket-engine');
-const SolidPropellantRocketEngine = require('../solid-propellant-rocket-engine');
-const CarrierRocket = require('../carrier-rocket');
+const RocketEngine = require('../../rocket-engine');
+const SolidPropellantRocketEngine = require('../../solid-propellant-rocket-engine');
+const CarrierRocket = require('../../carrier-rocket');
 
 describe('Система запуска космических ракет', () => {
   describe('Класс Ракетный двигатель', () => {
